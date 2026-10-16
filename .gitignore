@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging outputs
+build/
+dist/
+dist*/
+deployment/
+*.egg-info/
+*.spec
+nuitka-crash-report.xml
+
+# Local settings and logs
+.env
+.env.*
+!.env.example
+*.log
+water.json
+water.corrupt-*.json
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
